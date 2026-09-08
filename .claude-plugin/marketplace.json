@@ -1,0 +1,17 @@
+{
+  "name": "ga-6",
+  "owner": {
+    "name": "karthik-depasolutions"
+  },
+  "description": "Industry-agnostic fallback pack for tabular data that doesn't clearly match a specialized industry pack. Deliberately low-confidence by design \u2014 see forge_core.classification.matcher \u2014 so it never outranks a genuine industry match, but always provides a usable baseline.",
+  "plugins": [
+    {
+      "name": "generic-analytics-mis-plugin",
+      "source": "./plugins/generic-analytics-mis-plugin",
+      "description": "Industry-agnostic fallback pack for tabular data that doesn't clearly match a specialized industry pack. Deliberately low-confidence by design \u2014 see forge_core.classification.matcher \u2014 so it never outranks a genuine industry match, but always provides a usable baseline.",
+      "category": "mis-analytics",
+      "tags": [],
+      "strict": true
+    }
+  ]
+}

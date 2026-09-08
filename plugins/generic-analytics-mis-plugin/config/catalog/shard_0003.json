@@ -1,0 +1,3506 @@
+{
+  "catalog_version": 1,
+  "shard_id": 3,
+  "tables": [
+    {
+      "name": "v_gsc_search_analytics_by_date",
+      "purpose": "One row per record in v_gsc_search_analytics_by_date.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_date record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_gsc_search_analytics_by_device",
+      "purpose": "One row per record in v_gsc_search_analytics_by_device.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_device record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "device",
+          "meaning": "device value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_gsc_search_analytics_by_hour",
+      "purpose": "One row per record in v_gsc_search_analytics_by_hour.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_hour record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "hour",
+          "meaning": "hour value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_gsc_search_analytics_by_page",
+      "purpose": "One row per record in v_gsc_search_analytics_by_page.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_page record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page",
+          "meaning": "page value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_gsc_search_analytics_by_page_query",
+      "purpose": "One row per record in v_gsc_search_analytics_by_page_query.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_page_query record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page",
+          "meaning": "page value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "query",
+          "meaning": "query value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_gsc_search_analytics_by_query",
+      "purpose": "One row per record in v_gsc_search_analytics_by_query.",
+      "role": "fact",
+      "grain_prose": "one row per v_gsc_search_analytics_by_query record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "query",
+          "meaning": "query value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "position",
+          "meaning": "position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_account_insights",
+      "purpose": "One row per record in v_ig_account_insights.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_account_insights record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "follower_count",
+          "meaning": "follower_count value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "profile_views",
+          "meaning": "profile_views value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_clicks",
+          "meaning": "website_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "accounts_engaged",
+          "meaning": "accounts_engaged value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "total_interactions",
+          "meaning": "total_interactions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "views",
+          "meaning": "views value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "profile_links_taps",
+          "meaning": "profile_links_taps value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_audience_demographics",
+      "purpose": "One row per record in v_ig_audience_demographics.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_audience_demographics record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "breakdown",
+          "meaning": "breakdown value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "value",
+          "meaning": "value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "followers",
+          "meaning": "followers value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_entities",
+      "purpose": "One row per record in v_ig_entities.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_entities record",
+      "columns": [
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "level",
+          "meaning": "level value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "external_id",
+          "meaning": "external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "parent_external_id",
+          "meaning": "parent_external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "channel",
+          "meaning": "channel value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "objective",
+          "meaning": "objective value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "daily_budget",
+          "meaning": "daily_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "lifetime_budget",
+          "meaning": "lifetime_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "start_date",
+          "meaning": "start_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "end_date",
+          "meaning": "end_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_media_insights",
+      "purpose": "One row per record in v_ig_media_insights.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_media_insights record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "media_id",
+          "meaning": "media_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "saved",
+          "meaning": "saved value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "likes",
+          "meaning": "likes value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "comments",
+          "meaning": "comments value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "shares",
+          "meaning": "shares value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "total_interactions",
+          "meaning": "total_interactions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "views",
+          "meaning": "views value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_reel_insights",
+      "purpose": "One row per record in v_ig_reel_insights.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_reel_insights record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "media_id",
+          "meaning": "media_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "likes",
+          "meaning": "likes value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "comments",
+          "meaning": "comments value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "shares",
+          "meaning": "shares value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "saved",
+          "meaning": "saved value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "total_interactions",
+          "meaning": "total_interactions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "plays",
+          "meaning": "plays value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ig_reels_avg_watch_time",
+          "meaning": "ig_reels_avg_watch_time value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ig_reels_video_view_total_time",
+          "meaning": "ig_reels_video_view_total_time value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clips_replays_count",
+          "meaning": "clips_replays_count value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_ig_story_insights",
+      "purpose": "One row per record in v_ig_story_insights.",
+      "role": "fact",
+      "grain_prose": "one row per v_ig_story_insights record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "media_id",
+          "meaning": "media_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "replies",
+          "meaning": "replies value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "navigation",
+          "meaning": "navigation value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "total_interactions",
+          "meaning": "total_interactions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_ad_insights_by_age_gender",
+      "purpose": "One row per record in v_meta_ads_ad_insights_by_age_gender.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_ad_insights_by_age_gender record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "age",
+          "meaning": "age value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "gender",
+          "meaning": "gender value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "frequency",
+          "meaning": "frequency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpp",
+          "meaning": "cpp value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_link_clicks",
+          "meaning": "inline_link_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_post_engagement",
+          "meaning": "inline_post_engagement value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_clicks",
+          "meaning": "unique_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_ctr",
+          "meaning": "unique_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "outbound_clicks",
+          "meaning": "outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_outbound_clicks",
+          "meaning": "unique_outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "meaning": "cost_per_inline_link_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_unique_click",
+          "meaning": "cost_per_unique_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_ctr",
+          "meaning": "website_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "actions",
+          "meaning": "actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "action_values",
+          "meaning": "action_values value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_action_type",
+          "meaning": "cost_per_action_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "purchase_roas",
+          "meaning": "purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_purchase_roas",
+          "meaning": "website_purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_thruplay_watched_actions",
+          "meaning": "video_thruplay_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p25_watched_actions",
+          "meaning": "video_p25_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p50_watched_actions",
+          "meaning": "video_p50_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p75_watched_actions",
+          "meaning": "video_p75_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p100_watched_actions",
+          "meaning": "video_p100_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_30_sec_watched_actions",
+          "meaning": "video_30_sec_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_avg_time_watched_actions",
+          "meaning": "video_avg_time_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_ad_insights_by_country",
+      "purpose": "One row per record in v_meta_ads_ad_insights_by_country.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_ad_insights_by_country record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "country",
+          "meaning": "country value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "frequency",
+          "meaning": "frequency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpp",
+          "meaning": "cpp value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_link_clicks",
+          "meaning": "inline_link_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_post_engagement",
+          "meaning": "inline_post_engagement value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_clicks",
+          "meaning": "unique_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_ctr",
+          "meaning": "unique_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "outbound_clicks",
+          "meaning": "outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_outbound_clicks",
+          "meaning": "unique_outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "meaning": "cost_per_inline_link_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_unique_click",
+          "meaning": "cost_per_unique_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_ctr",
+          "meaning": "website_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "actions",
+          "meaning": "actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "action_values",
+          "meaning": "action_values value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_action_type",
+          "meaning": "cost_per_action_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "purchase_roas",
+          "meaning": "purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_purchase_roas",
+          "meaning": "website_purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_thruplay_watched_actions",
+          "meaning": "video_thruplay_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p25_watched_actions",
+          "meaning": "video_p25_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p50_watched_actions",
+          "meaning": "video_p50_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p75_watched_actions",
+          "meaning": "video_p75_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p100_watched_actions",
+          "meaning": "video_p100_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_30_sec_watched_actions",
+          "meaning": "video_30_sec_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_avg_time_watched_actions",
+          "meaning": "video_avg_time_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_ad_insights_by_device",
+      "purpose": "One row per record in v_meta_ads_ad_insights_by_device.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_ad_insights_by_device record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impression_device",
+          "meaning": "impression_device value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "device_platform",
+          "meaning": "device_platform value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "frequency",
+          "meaning": "frequency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpp",
+          "meaning": "cpp value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_link_clicks",
+          "meaning": "inline_link_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_post_engagement",
+          "meaning": "inline_post_engagement value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_clicks",
+          "meaning": "unique_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_ctr",
+          "meaning": "unique_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "outbound_clicks",
+          "meaning": "outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_outbound_clicks",
+          "meaning": "unique_outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "meaning": "cost_per_inline_link_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_unique_click",
+          "meaning": "cost_per_unique_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_ctr",
+          "meaning": "website_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "actions",
+          "meaning": "actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "action_values",
+          "meaning": "action_values value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_action_type",
+          "meaning": "cost_per_action_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "purchase_roas",
+          "meaning": "purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_purchase_roas",
+          "meaning": "website_purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_thruplay_watched_actions",
+          "meaning": "video_thruplay_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p25_watched_actions",
+          "meaning": "video_p25_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p50_watched_actions",
+          "meaning": "video_p50_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p75_watched_actions",
+          "meaning": "video_p75_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p100_watched_actions",
+          "meaning": "video_p100_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_30_sec_watched_actions",
+          "meaning": "video_30_sec_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_avg_time_watched_actions",
+          "meaning": "video_avg_time_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_ad_insights_by_platform",
+      "purpose": "One row per record in v_meta_ads_ad_insights_by_platform.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_ad_insights_by_platform record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "publisher_platform",
+          "meaning": "publisher_platform value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "platform_position",
+          "meaning": "platform_position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impression_device",
+          "meaning": "impression_device value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "frequency",
+          "meaning": "frequency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpp",
+          "meaning": "cpp value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_link_clicks",
+          "meaning": "inline_link_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_post_engagement",
+          "meaning": "inline_post_engagement value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_clicks",
+          "meaning": "unique_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_ctr",
+          "meaning": "unique_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "outbound_clicks",
+          "meaning": "outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_outbound_clicks",
+          "meaning": "unique_outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "meaning": "cost_per_inline_link_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_unique_click",
+          "meaning": "cost_per_unique_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_ctr",
+          "meaning": "website_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "actions",
+          "meaning": "actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "action_values",
+          "meaning": "action_values value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_action_type",
+          "meaning": "cost_per_action_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "purchase_roas",
+          "meaning": "purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_purchase_roas",
+          "meaning": "website_purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_thruplay_watched_actions",
+          "meaning": "video_thruplay_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p25_watched_actions",
+          "meaning": "video_p25_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p50_watched_actions",
+          "meaning": "video_p50_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p75_watched_actions",
+          "meaning": "video_p75_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p100_watched_actions",
+          "meaning": "video_p100_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_30_sec_watched_actions",
+          "meaning": "video_30_sec_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_avg_time_watched_actions",
+          "meaning": "video_avg_time_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_ad_insights_by_region",
+      "purpose": "One row per record in v_meta_ads_ad_insights_by_region.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_ad_insights_by_region record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "region",
+          "meaning": "region value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "frequency",
+          "meaning": "frequency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpp",
+          "meaning": "cpp value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_link_clicks",
+          "meaning": "inline_link_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "inline_post_engagement",
+          "meaning": "inline_post_engagement value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_clicks",
+          "meaning": "unique_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_ctr",
+          "meaning": "unique_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "outbound_clicks",
+          "meaning": "outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unique_outbound_clicks",
+          "meaning": "unique_outbound_clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_inline_link_click",
+          "meaning": "cost_per_inline_link_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_unique_click",
+          "meaning": "cost_per_unique_click value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_ctr",
+          "meaning": "website_ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "actions",
+          "meaning": "actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "action_values",
+          "meaning": "action_values value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost_per_action_type",
+          "meaning": "cost_per_action_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "purchase_roas",
+          "meaning": "purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "website_purchase_roas",
+          "meaning": "website_purchase_roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_thruplay_watched_actions",
+          "meaning": "video_thruplay_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p25_watched_actions",
+          "meaning": "video_p25_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p50_watched_actions",
+          "meaning": "video_p50_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p75_watched_actions",
+          "meaning": "video_p75_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_p100_watched_actions",
+          "meaning": "video_p100_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_30_sec_watched_actions",
+          "meaning": "video_30_sec_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "video_avg_time_watched_actions",
+          "meaning": "video_avg_time_watched_actions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_entities",
+      "purpose": "One row per record in v_meta_ads_entities.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_entities record",
+      "columns": [
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "level",
+          "meaning": "level value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "external_id",
+          "meaning": "external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "parent_external_id",
+          "meaning": "parent_external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "channel",
+          "meaning": "channel value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "objective",
+          "meaning": "objective value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "daily_budget",
+          "meaning": "daily_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "lifetime_budget",
+          "meaning": "lifetime_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "start_date",
+          "meaning": "start_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "end_date",
+          "meaning": "end_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "v_meta_ads_performance",
+      "purpose": "One row per record in v_meta_ads_performance.",
+      "role": "fact",
+      "grain_prose": "one row per v_meta_ads_performance record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "account_id",
+          "meaning": "account_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_name",
+          "meaning": "campaign_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_name",
+          "meaning": "adset_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversion_value",
+          "meaning": "conversion_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "roas",
+          "meaning": "roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "warehouse_catalog",
+      "purpose": "One row per record in warehouse_catalog.",
+      "role": "fact",
+      "grain_prose": "one row per warehouse_catalog record",
+      "columns": [
+        {
+          "name": "view_name",
+          "meaning": "view_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "grain",
+          "meaning": "grain value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "column_name",
+          "meaning": "column_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "role",
+          "meaning": "role value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    }
+  ]
+}

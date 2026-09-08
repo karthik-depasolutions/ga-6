@@ -1,0 +1,331 @@
+{
+  "pack_slug": "generic-analytics",
+  "data_source_id": "5344b18ad46ecacd",
+  "tables": [
+    {
+      "alias": "fact",
+      "physical": "srcdb.\"public\".\"report_rows\"",
+      "grain": "report_rows",
+      "join_on": null,
+      "join_is_to_parent": true
+    },
+    {
+      "alias": "connections",
+      "physical": "srcdb.\"public\".\"connections\"",
+      "grain": "connections",
+      "join_on": "\"srcdb.\"public\".\"report_rows\"\".\"connection_id\" = \"srcdb.\"public\".\"connections\"\".\"id\"",
+      "join_is_to_parent": true
+    }
+  ],
+  "columns": [
+    {
+      "role": "measure_amount",
+      "table_alias": "fact",
+      "physical": "impressions",
+      "confidence": 0.45,
+      "evidence": "core-token overlap 0.00 for role 'measure_amount'; column role numeric matches expected type",
+      "source": "deterministic"
+    },
+    {
+      "role": "date_dim",
+      "table_alias": "fact",
+      "physical": "date",
+      "confidence": 0.56,
+      "evidence": "core-token overlap 0.00 for role 'date_dim'; column role date matches expected type",
+      "source": "deterministic"
+    },
+    {
+      "role": "record_ref",
+      "table_alias": "fact",
+      "physical": "record_key",
+      "confidence": 0.8533,
+      "evidence": "core-token overlap 1.00 for role 'record_ref'; column role identifier matches expected type",
+      "source": "deterministic"
+    },
+    {
+      "role": "category_dim",
+      "table_alias": "connections",
+      "physical": "config",
+      "confidence": 0.45,
+      "evidence": "resolved on related table 'connections' (1 relationship hop(s))",
+      "source": "cross_table"
+    }
+  ],
+  "value_sets": [],
+  "allowed_tables": [
+    "srcdb.\"public\".\"ad_entities\"",
+    "srcdb.\"public\".\"alembic_version\"",
+    "srcdb.\"public\".\"api_tokens\"",
+    "srcdb.\"public\".\"connections\"",
+    "srcdb.\"public\".\"connector_resources\"",
+    "srcdb.\"public\".\"cross_channel_paid_ads\"",
+    "srcdb.\"public\".\"google_ads_performance\"",
+    "srcdb.\"public\".\"google_analytics_performance\"",
+    "srcdb.\"public\".\"google_search_console_performance\"",
+    "srcdb.\"public\".\"meta_ads_performance\"",
+    "srcdb.\"public\".\"oauth_identities\"",
+    "srcdb.\"public\".\"oauth_states\"",
+    "srcdb.\"public\".\"organizations\"",
+    "srcdb.\"public\".\"report_rows\"",
+    "srcdb.\"public\".\"skipped_records\"",
+    "srcdb.\"public\".\"source_schemas\"",
+    "srcdb.\"public\".\"sync_errors\"",
+    "srcdb.\"public\".\"sync_runs\"",
+    "srcdb.\"public\".\"sync_state\"",
+    "srcdb.\"public\".\"sync_stream_stats\"",
+    "srcdb.\"public\".\"v_cross_channel_paid_ads\"",
+    "srcdb.\"public\".\"v_fb_entities\"",
+    "srcdb.\"public\".\"v_fb_page_insights\"",
+    "srcdb.\"public\".\"v_fb_post_insights\"",
+    "srcdb.\"public\".\"v_ga4_campaign_attribution\"",
+    "srcdb.\"public\".\"v_ga4_conversions\"",
+    "srcdb.\"public\".\"v_ga4_daily_overview\"",
+    "srcdb.\"public\".\"v_ga4_demographics\"",
+    "srcdb.\"public\".\"v_ga4_device_platform\"",
+    "srcdb.\"public\".\"v_ga4_ecommerce\"",
+    "srcdb.\"public\".\"v_ga4_events\"",
+    "srcdb.\"public\".\"v_ga4_first_user_acquisition\"",
+    "srcdb.\"public\".\"v_ga4_geography\"",
+    "srcdb.\"public\".\"v_ga4_google_ads_campaigns\"",
+    "srcdb.\"public\".\"v_ga4_hourly_overview\"",
+    "srcdb.\"public\".\"v_ga4_interests\"",
+    "srcdb.\"public\".\"v_ga4_key_events_by_channel\"",
+    "srcdb.\"public\".\"v_ga4_landing_pages\"",
+    "srcdb.\"public\".\"v_ga4_new_vs_returning\"",
+    "srcdb.\"public\".\"v_ga4_page_performance\"",
+    "srcdb.\"public\".\"v_ga4_page_title\"",
+    "srcdb.\"public\".\"v_ga4_performance\"",
+    "srcdb.\"public\".\"v_ga4_session_quality\"",
+    "srcdb.\"public\".\"v_ga4_tech_details\"",
+    "srcdb.\"public\".\"v_ga4_traffic_acquisition\"",
+    "srcdb.\"public\".\"v_gads_ad_group_performance\"",
+    "srcdb.\"public\".\"v_gads_ad_performance\"",
+    "srcdb.\"public\".\"v_gads_age_range_performance\"",
+    "srcdb.\"public\".\"v_gads_campaign_device_performance\"",
+    "srcdb.\"public\".\"v_gads_campaign_performance\"",
+    "srcdb.\"public\".\"v_gads_entities\"",
+    "srcdb.\"public\".\"v_gads_gender_performance\"",
+    "srcdb.\"public\".\"v_gads_geo_performance\"",
+    "srcdb.\"public\".\"v_gads_keyword_performance\"",
+    "srcdb.\"public\".\"v_gads_performance\"",
+    "srcdb.\"public\".\"v_gads_search_term_performance\"",
+    "srcdb.\"public\".\"v_gsc_entities\"",
+    "srcdb.\"public\".\"v_gsc_performance\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_appearance\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_country\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_date\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_device\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_hour\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_page\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_page_query\"",
+    "srcdb.\"public\".\"v_gsc_search_analytics_by_query\"",
+    "srcdb.\"public\".\"v_ig_account_insights\"",
+    "srcdb.\"public\".\"v_ig_audience_demographics\"",
+    "srcdb.\"public\".\"v_ig_entities\"",
+    "srcdb.\"public\".\"v_ig_media_insights\"",
+    "srcdb.\"public\".\"v_ig_reel_insights\"",
+    "srcdb.\"public\".\"v_ig_story_insights\"",
+    "srcdb.\"public\".\"v_meta_ads_ad_insights_by_age_gender\"",
+    "srcdb.\"public\".\"v_meta_ads_ad_insights_by_country\"",
+    "srcdb.\"public\".\"v_meta_ads_ad_insights_by_device\"",
+    "srcdb.\"public\".\"v_meta_ads_ad_insights_by_platform\"",
+    "srcdb.\"public\".\"v_meta_ads_ad_insights_by_region\"",
+    "srcdb.\"public\".\"v_meta_ads_entities\"",
+    "srcdb.\"public\".\"v_meta_ads_performance\"",
+    "srcdb.\"public\".\"warehouse_catalog\""
+  ],
+  "relationships": [
+    {
+      "from_ref": "ad_entities.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "ad_entities.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "api_tokens.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "connections.oauth_identity_id",
+      "to_ref": "oauth_identities.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "connections.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "connector_resources.oauth_identity_id",
+      "to_ref": "oauth_identities.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "connector_resources.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "oauth_identities.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "oauth_states.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "report_rows.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "report_rows.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "skipped_records.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "skipped_records.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "source_schemas.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_errors.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_errors.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_errors.sync_run_id",
+      "to_ref": "sync_runs.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_runs.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_runs.organization_id",
+      "to_ref": "organizations.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_state.connection_id",
+      "to_ref": "connections.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    },
+    {
+      "from_ref": "sync_stream_stats.sync_run_id",
+      "to_ref": "sync_runs.id",
+      "strength": "strong",
+      "cardinality": "N:1"
+    }
+  ],
+  "denied_columns": [
+    "access_token_encrypted",
+    "ad_group_criterion_keyword_text",
+    "ad_group_name",
+    "ad_name",
+    "adset_name",
+    "age",
+    "branding_interest",
+    "breakdown",
+    "campaign_name",
+    "channel",
+    "column_name",
+    "currency",
+    "details",
+    "device_platform",
+    "dimensions",
+    "display_name",
+    "email",
+    "event_name",
+    "first_user_campaign_name",
+    "first_user_source",
+    "gender",
+    "hour",
+    "impression_device",
+    "item_category",
+    "item_name",
+    "json_schema",
+    "keyword",
+    "landing_page",
+    "language",
+    "last_drift",
+    "level",
+    "metadata",
+    "metrics",
+    "name",
+    "objective",
+    "page",
+    "page_path",
+    "page_path_plus_query_string",
+    "page_title",
+    "payload",
+    "platform_position",
+    "provider",
+    "publisher_platform",
+    "query",
+    "raw",
+    "resource_metadata",
+    "resource_name",
+    "resource_type",
+    "scopes",
+    "screen_resolution",
+    "search_term",
+    "search_term_view_search_term",
+    "session_campaign_name",
+    "session_google_ads_ad_group_name",
+    "session_google_ads_campaign_name",
+    "session_source",
+    "status",
+    "stream",
+    "streams",
+    "user_age_bracket",
+    "user_gender",
+    "value",
+    "view_name"
+  ],
+  "unresolved_roles": []
+}

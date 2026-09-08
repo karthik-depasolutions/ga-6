@@ -1,0 +1,128 @@
+[
+  {
+    "from_ref": "ad_entities.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "ad_entities.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "api_tokens.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "connections.oauth_identity_id",
+    "to_ref": "oauth_identities.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "connections.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "connector_resources.oauth_identity_id",
+    "to_ref": "oauth_identities.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "connector_resources.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "oauth_identities.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "oauth_states.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "report_rows.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "report_rows.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "skipped_records.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "skipped_records.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "source_schemas.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_errors.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_errors.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_errors.sync_run_id",
+    "to_ref": "sync_runs.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_runs.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_runs.organization_id",
+    "to_ref": "organizations.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_state.connection_id",
+    "to_ref": "connections.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  },
+  {
+    "from_ref": "sync_stream_stats.sync_run_id",
+    "to_ref": "sync_runs.id",
+    "strength": "strong",
+    "cardinality": "N:1"
+  }
+]

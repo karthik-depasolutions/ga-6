@@ -1,0 +1,2610 @@
+{
+  "catalog_version": 1,
+  "shard_id": 0,
+  "tables": [
+    {
+      "name": "ad_entities",
+      "purpose": "One row per record in ad_entities.",
+      "role": "fact",
+      "grain_prose": "one row per ad_entities record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_id",
+          "meaning": "resource_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "level",
+          "meaning": "level value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "external_id",
+          "meaning": "external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "parent_external_id",
+          "meaning": "parent_external_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "channel",
+          "meaning": "channel value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "objective",
+          "meaning": "objective value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "daily_budget",
+          "meaning": "daily_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "lifetime_budget",
+          "meaning": "lifetime_budget value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "start_date",
+          "meaning": "start_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "end_date",
+          "meaning": "end_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "raw",
+          "meaning": "raw value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ingested_at",
+          "meaning": "ingested_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "alembic_version",
+      "purpose": "One row per record in alembic_version.",
+      "role": "fact",
+      "grain_prose": "one row per alembic_version record",
+      "columns": [
+        {
+          "name": "version_num",
+          "meaning": "version_num value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "api_tokens",
+      "purpose": "One row per record in api_tokens.",
+      "role": "fact",
+      "grain_prose": "one row per api_tokens record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "token_hash",
+          "meaning": "token_hash value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "label",
+          "meaning": "label value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "created_at",
+          "meaning": "created_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_used_at",
+          "meaning": "last_used_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "connections",
+      "purpose": "One row per record in connections.",
+      "role": "fact",
+      "grain_prose": "one row per connections record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "oauth_identity_id",
+          "meaning": "oauth_identity_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_id",
+          "meaning": "resource_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_name",
+          "meaning": "resource_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_metadata",
+          "meaning": "resource_metadata value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "config",
+          "meaning": "config value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "streams",
+          "meaning": "streams value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "backfill_start_date",
+          "meaning": "backfill_start_date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "lookback_days",
+          "meaning": "lookback_days value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "schedule_interval_seconds",
+          "meaning": "schedule_interval_seconds value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "enabled",
+          "meaning": "enabled value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status_detail",
+          "meaning": "status_detail value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_error_code",
+          "meaning": "last_error_code value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_error_message",
+          "meaning": "last_error_message value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_run_at",
+          "meaning": "last_run_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_success_at",
+          "meaning": "last_success_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "next_run_at",
+          "meaning": "next_run_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "total_records_synced",
+          "meaning": "total_records_synced value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "consecutive_failures",
+          "meaning": "consecutive_failures value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "locked_at",
+          "meaning": "locked_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "locked_by",
+          "meaning": "locked_by value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "created_at",
+          "meaning": "created_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "connector_resources",
+      "purpose": "One row per record in connector_resources.",
+      "role": "fact",
+      "grain_prose": "one row per connector_resources record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "oauth_identity_id",
+          "meaning": "oauth_identity_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_id",
+          "meaning": "resource_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_type",
+          "meaning": "resource_type value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "parent_id",
+          "meaning": "parent_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "metadata",
+          "meaning": "metadata value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "selectable",
+          "meaning": "selectable value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "unsupported_reason",
+          "meaning": "unsupported_reason value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "discovered_at",
+          "meaning": "discovered_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "cross_channel_paid_ads",
+      "purpose": "One row per record in cross_channel_paid_ads.",
+      "role": "fact",
+      "grain_prose": "one row per cross_channel_paid_ads record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "channel",
+          "meaning": "channel value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "account_id",
+          "meaning": "account_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_name",
+          "meaning": "campaign_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversion_value",
+          "meaning": "conversion_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "google_ads_performance",
+      "purpose": "One row per record in google_ads_performance.",
+      "role": "fact",
+      "grain_prose": "one row per google_ads_performance record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "customer_id",
+          "meaning": "customer_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_name",
+          "meaning": "campaign_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_group_id",
+          "meaning": "ad_group_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_group_name",
+          "meaning": "ad_group_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "search_term",
+          "meaning": "search_term value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "keyword",
+          "meaning": "keyword value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost",
+          "meaning": "cost value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversion_value",
+          "meaning": "conversion_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "roas",
+          "meaning": "roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "google_analytics_performance",
+      "purpose": "One row per record in google_analytics_performance.",
+      "role": "fact",
+      "grain_prose": "one row per google_analytics_performance record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "property_id",
+          "meaning": "property_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "channel_group",
+          "meaning": "channel_group value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "landing_page",
+          "meaning": "landing_page value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page_path",
+          "meaning": "page_path value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page_title",
+          "meaning": "page_title value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "event_name",
+          "meaning": "event_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "device_category",
+          "meaning": "device_category value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "country",
+          "meaning": "country value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sessions",
+          "meaning": "sessions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "active_users",
+          "meaning": "active_users value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "new_users",
+          "meaning": "new_users value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page_views",
+          "meaning": "page_views value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "engaged_sessions",
+          "meaning": "engaged_sessions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "bounce_rate",
+          "meaning": "bounce_rate value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "engagement_rate",
+          "meaning": "engagement_rate value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "revenue",
+          "meaning": "revenue value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "google_search_console_performance",
+      "purpose": "One row per record in google_search_console_performance.",
+      "role": "fact",
+      "grain_prose": "one row per google_search_console_performance record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "site_url",
+          "meaning": "site_url value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "query",
+          "meaning": "query value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page",
+          "meaning": "page value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "device",
+          "meaning": "device value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "country",
+          "meaning": "country value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "average_position",
+          "meaning": "average_position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "meta_ads_performance",
+      "purpose": "One row per record in meta_ads_performance.",
+      "role": "fact",
+      "grain_prose": "one row per meta_ads_performance record",
+      "columns": [
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "account_id",
+          "meaning": "account_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_id",
+          "meaning": "campaign_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "campaign_name",
+          "meaning": "campaign_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_id",
+          "meaning": "adset_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "adset_name",
+          "meaning": "adset_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_id",
+          "meaning": "ad_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ad_name",
+          "meaning": "ad_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "spend",
+          "meaning": "spend value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversion_value",
+          "meaning": "conversion_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpc",
+          "meaning": "cpc value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cpm",
+          "meaning": "cpm value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ctr",
+          "meaning": "ctr value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "roas",
+          "meaning": "roas value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "synced_at",
+          "meaning": "synced_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "oauth_identities",
+      "purpose": "One row per record in oauth_identities.",
+      "role": "fact",
+      "grain_prose": "one row per oauth_identities record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "external_account_id",
+          "meaning": "external_account_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "email",
+          "meaning": "email value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "display_name",
+          "meaning": "display_name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "access_token_encrypted",
+          "meaning": "access_token_encrypted value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "refresh_token_encrypted",
+          "meaning": "refresh_token_encrypted value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "access_token_expires_at",
+          "meaning": "access_token_expires_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "scopes",
+          "meaning": "scopes value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status_detail",
+          "meaning": "status_detail value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "created_at",
+          "meaning": "created_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "revoked_at",
+          "meaning": "revoked_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "oauth_states",
+      "purpose": "One row per record in oauth_states.",
+      "role": "fact",
+      "grain_prose": "one row per oauth_states record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "state",
+          "meaning": "state value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "scopes",
+          "meaning": "scopes value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "redirect_after",
+          "meaning": "redirect_after value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "identity_id",
+          "meaning": "identity_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "created_at",
+          "meaning": "created_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "expires_at",
+          "meaning": "expires_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "consumed_at",
+          "meaning": "consumed_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "organizations",
+      "purpose": "One row per record in organizations.",
+      "role": "fact",
+      "grain_prose": "one row per organizations record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "name",
+          "meaning": "name value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "slug",
+          "meaning": "slug value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "created_at",
+          "meaning": "created_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "report_rows",
+      "purpose": "One row per record in report_rows.",
+      "role": "fact",
+      "grain_prose": "one row per report_rows record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "resource_id",
+          "meaning": "resource_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "record_key",
+          "meaning": "record_key value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "date",
+          "meaning": "date value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "dimensions",
+          "meaning": "dimensions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "metrics",
+          "meaning": "metrics value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "raw",
+          "meaning": "raw value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "impressions",
+          "meaning": "impressions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "clicks",
+          "meaning": "clicks value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cost",
+          "meaning": "cost value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "currency",
+          "meaning": "currency value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversions",
+          "meaning": "conversions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "conversion_value",
+          "meaning": "conversion_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "revenue",
+          "meaning": "revenue value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sessions",
+          "meaning": "sessions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "users",
+          "meaning": "users value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "new_users",
+          "meaning": "new_users value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "page_views",
+          "meaning": "page_views value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "engaged_sessions",
+          "meaning": "engaged_sessions value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reach",
+          "meaning": "reach value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "average_position",
+          "meaning": "average_position value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "schema_version",
+          "meaning": "schema_version value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "source_updated_at",
+          "meaning": "source_updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "ingested_at",
+          "meaning": "ingested_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "event_count",
+          "meaning": "event_count value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "engagement_rate",
+          "meaning": "engagement_rate value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "bounce_rate",
+          "meaning": "bounce_rate value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "avg_session_duration",
+          "meaning": "avg_session_duration value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "screen_page_views_per_session",
+          "meaning": "screen_page_views_per_session value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "user_engagement_duration",
+          "meaning": "user_engagement_duration value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "skipped_records",
+      "purpose": "One row per record in skipped_records.",
+      "role": "fact",
+      "grain_prose": "one row per skipped_records record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "reason",
+          "meaning": "reason value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "payload",
+          "meaning": "payload value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "occurred_at",
+          "meaning": "occurred_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "source_schemas",
+      "purpose": "One row per record in source_schemas.",
+      "role": "fact",
+      "grain_prose": "one row per source_schemas record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "json_schema",
+          "meaning": "json_schema value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "schema_version",
+          "meaning": "schema_version value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "last_drift",
+          "meaning": "last_drift value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "sync_errors",
+      "purpose": "One row per record in sync_errors.",
+      "role": "fact",
+      "grain_prose": "one row per sync_errors record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "code",
+          "meaning": "code value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "message",
+          "meaning": "message value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "provider",
+          "meaning": "provider value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connector_id",
+          "meaning": "connector_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "retryable",
+          "meaning": "retryable value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "recoverable",
+          "meaning": "recoverable value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "user_action",
+          "meaning": "user_action value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "http_status",
+          "meaning": "http_status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "details",
+          "meaning": "details value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "occurred_at",
+          "meaning": "occurred_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "sync_runs",
+      "purpose": "One row per record in sync_runs.",
+      "role": "fact",
+      "grain_prose": "one row per sync_runs record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "organization_id",
+          "meaning": "organization_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "trigger",
+          "meaning": "trigger value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_mode",
+          "meaning": "sync_mode value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "phase",
+          "meaning": "phase value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "phase_detail",
+          "meaning": "phase_detail value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "attempt",
+          "meaning": "attempt value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "started_at",
+          "meaning": "started_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "finished_at",
+          "meaning": "finished_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "duration_ms",
+          "meaning": "duration_ms value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_fetched",
+          "meaning": "records_fetched value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_inserted",
+          "meaning": "records_inserted value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_updated",
+          "meaning": "records_updated value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_skipped",
+          "meaning": "records_skipped value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "api_calls",
+          "meaning": "api_calls value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "slices_completed",
+          "meaning": "slices_completed value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "slices_total",
+          "meaning": "slices_total value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "warnings",
+          "meaning": "warnings value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "error_code",
+          "meaning": "error_code value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "error_message",
+          "meaning": "error_message value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "will_retry",
+          "meaning": "will_retry value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "state_before",
+          "meaning": "state_before value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "state_after",
+          "meaning": "state_after value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "sync_state",
+      "purpose": "One row per record in sync_state.",
+      "role": "fact",
+      "grain_prose": "one row per sync_state record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "connection_id",
+          "meaning": "connection_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cursor_field",
+          "meaning": "cursor_field value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cursor_value",
+          "meaning": "cursor_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "state",
+          "meaning": "state value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "schema_version",
+          "meaning": "schema_version value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_synced",
+          "meaning": "records_synced value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "updated_at",
+          "meaning": "updated_at value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "name": "sync_stream_stats",
+      "purpose": "One row per record in sync_stream_stats.",
+      "role": "fact",
+      "grain_prose": "one row per sync_stream_stats record",
+      "columns": [
+        {
+          "name": "id",
+          "meaning": "id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_run_id",
+          "meaning": "sync_run_id value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "stream",
+          "meaning": "stream value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "status",
+          "meaning": "status value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "sync_mode",
+          "meaning": "sync_mode value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_fetched",
+          "meaning": "records_fetched value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_inserted",
+          "meaning": "records_inserted value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_updated",
+          "meaning": "records_updated value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "records_skipped",
+          "meaning": "records_skipped value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "api_calls",
+          "meaning": "api_calls value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "slices_completed",
+          "meaning": "slices_completed value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "slices_total",
+          "meaning": "slices_total value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "cursor_value",
+          "meaning": "cursor_value value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "error_code",
+          "meaning": "error_code value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        },
+        {
+          "name": "error_message",
+          "meaning": "error_message value.",
+          "enum": null,
+          "example": null,
+          "confidence": "low",
+          "synonyms": []
+        }
+      ],
+      "synonyms": []
+    }
+  ]
+}

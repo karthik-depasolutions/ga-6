@@ -1,0 +1,61 @@
+{
+  "pack_slug": "generic-analytics",
+  "generated_at": "2026-09-08T18:31:53.448907+00:00",
+  "kpis": [
+    {
+      "id": "average_measure",
+      "label": "Average of Primary Measure",
+      "description": "Average of the primary numeric measure.",
+      "unit": "numeric",
+      "sql": "SELECT ROUND(AVG(\"impressions\"), 2) AS average FROM srcdb.\"public\".\"report_rows\"",
+      "assertions": [],
+      "result_columns": [
+        "average"
+      ],
+      "source_kpi_id": "average_measure"
+    },
+    {
+      "id": "sum_measure",
+      "label": "Sum of Primary Measure",
+      "description": "Sum of the primary numeric measure.",
+      "unit": "numeric",
+      "sql": "SELECT SUM(\"impressions\") AS total FROM srcdb.\"public\".\"report_rows\"",
+      "assertions": [],
+      "result_columns": [
+        "total"
+      ],
+      "source_kpi_id": "sum_measure"
+    },
+    {
+      "id": "total_records",
+      "label": "Total Records",
+      "description": "Total number of rows in the primary table.",
+      "unit": "count",
+      "sql": "SELECT COUNT(*) AS total_records FROM srcdb.\"public\".\"report_rows\"",
+      "assertions": [
+        "total_records >= 0"
+      ],
+      "result_columns": [
+        "total_records"
+      ],
+      "source_kpi_id": "total_records"
+    },
+    {
+      "id": "trend_by_month",
+      "label": "Trend by Month",
+      "description": "Primary measure summed and record count, grouped by month of the primary date dimension.",
+      "unit": "numeric",
+      "sql": "SELECT STRFTIME(CAST(\"date\" AS TIMESTAMP), '%Y-%m') AS month, SUM(\"impressions\") AS total, COUNT(*) AS record_count FROM srcdb.\"public\".\"report_rows\" GROUP BY month ORDER BY month",
+      "assertions": [],
+      "result_columns": [
+        "month",
+        "total",
+        "record_count"
+      ],
+      "source_kpi_id": "trend_by_month"
+    }
+  ],
+  "skipped": [
+    "count_by_category"
+  ]
+}
